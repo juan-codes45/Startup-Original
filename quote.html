@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Get a Quote | Awesome Soft Solutions</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/images/favicon.png"
+    />
+    <link href="assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="assets/css/flaticon.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/Custom.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="wpo-breadcumb-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="wpo-breadcumb-wrap">
+                <h2>Request a Quote</h2>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><span>Get a Quote</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section
+        class="wpo-services-pricing-section section-padding"
+        style="background: #f8fafc"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2>Our Services & Pricing</h2>
+              <p>
+                Below are our core digital services and their starting prices.
+                For a custom quote, fill out the form below.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center" style="margin-top: 32px">
+            <div class="col-md-10">
+              <div class="table-responsive">
+                <table
+                  class="table table-bordered table-striped"
+                  style="
+                    background: #fff;
+                    border-radius: 12px;
+                    overflow: hidden;
+                  "
+                >
+                  <thead style="background: #1e90ff; color: #fff">
+                    <tr>
+                      <th>Service</th>
+                      <th>Description</th>
+                      <th>Starting Cost (KES)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Web Development</strong></td>
+                      <td>Custom websites, e-commerce, web apps</td>
+                      <td>30,000+</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Graphic Design</strong></td>
+                      <td>Branding, posters, social media, brochures</td>
+                      <td>5,000+</td>
+                    </tr>
+                    <tr>
+                      <td><strong>3D Design</strong></td>
+                      <td>Product models, visualizations, animation</td>
+                      <td>15,000+</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Logo Design</strong></td>
+                      <td>Unique, professional logo creation</td>
+                      <td>7,000+</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="wpo-contact-pg-section section-padding">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="wpo-contact-title text-center">
+                <h2>Get Your Free Quote</h2>
+                <p>
+                  Fill out the form below and our team will get back to you with
+                  a custom quote for your project.
+                </p>
+              </div>
+              <div class="wpo-contact-form-area">
+                <form id="quote-form" class="contact-validation-active">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="name"
+                        placeholder="Your Name*"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        placeholder="Your Email*"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="phone"
+                        placeholder="Your Phone*"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <select name="service" class="form-control" required>
+                        <option disabled selected>Service Interested In</option>
+                        <option>Web Development</option>
+                        <option>Graphic Design</option>
+                        <option>3D Design</option>
+                        <option>Logo Design</option>
+                        <option>Other</option>
+                      </select>
+                    </div>
+                    <div class="col-12">
+                      <textarea
+                        class="form-control"
+                        name="details"
+                        placeholder="Tell us about your project..."
+                        rows="5"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button
+                        type="submit"
+                        class="btn theme-btn-s2"
+                        style="min-width: 180px"
+                      >
+                        Request Quote
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="clearfix error-handling-messages text-center"
+                    style="margin-top: 20px"
+                  >
+                    <div
+                      id="quote-success"
+                      style="display: none; color: #1e90ff; font-weight: 600"
+                    >
+                      Thank you! We have received your request and will contact
+                      you soon.
+                    </div>
+                    <div
+                      id="quote-error"
+                      style="display: none; color: #e74c3c; font-weight: 600"
+                    >
+                      Error occurred while sending your request. Please try
+                      again later.
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="wpo-site-footer">
+        <div class="wpo-upper-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="widget about-widget">
+                  <div class="logo widget-title">
+                    <img
+                      src="assets/images/logo2.png"
+                      alt="Awesome Soft Solutions Logo"
+                    />
+                  </div>
+                  <p>
+                    Awesome Soft Solutions: Your digital partner for web,
+                    graphic, 3D, and logo design. Let's build something amazing
+                    together!
+                  </p>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col col-lg-2 col-md-6 col-sm-12 col-12">
+                <div class="widget link-widget">
+                  <div class="widget-title">
+                    <h3>Quick Links</h3>
+                  </div>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="widget wpo-service-link-widget">
+                  <div class="widget-title">
+                    <h3>Contact</h3>
+                  </div>
+                  <div class="contact-ft">
+                    <p>Have a project in mind? Let's talk!</p>
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        awesmesoftsolutions@gmail.com
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-phone-volume"></i> 0794625960
+                      </li>
+                      <li>
+                        <i class="fa-regular fa-location-dot"></i> Nairobi,
+                        Kenya
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="widget instagram">
+                  <div class="widget-title">
+                    <h3>Our Work</h3>
+                  </div>
+                  <ul class="d-flex">
+                    <li>
+                      <a href="project-single.html"
+                        ><img
+                          src="assets/images/service-single/1.jpg"
+                          alt="Web Development"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="project-single.html"
+                        ><img
+                          src="assets/images/service-single/2.jpg"
+                          alt="Graphic Design"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="project-single.html"
+                        ><img
+                          src="assets/images/service-single/3.jpg"
+                          alt="3D & Logo Design"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wpo-lower-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col col-xs-12">
+                <p class="copyright">
+                  &copy; 2024 Awesome Soft Solutions. All Rights Reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- All JavaScript files -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/jquery.dlmenu.js"></script>
+    <script src="assets/js/jquery-plugin-collection.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      // Simple AJAX simulation for demo (replace with real backend integration)
+      document
+        .getElementById("quote-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          document.getElementById("quote-success").style.display = "block";
+          document.getElementById("quote-error").style.display = "none";
+          setTimeout(function () {
+            document.getElementById("quote-success").style.display = "none";
+          }, 4000);
+          this.reset();
+        });
+    </script>
+  </body>
+</html>

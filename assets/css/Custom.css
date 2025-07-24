@@ -1,5 +1,263 @@
-/*Custom css codes to style stuff*/
+/* Custom css codes to style stuff */
 
 .fa-brands.fa-x-twitter {
     color: white;
+}
+
+/* --- Awesome Soft Solutions Homepage Custom Styles --- */
+
+/* Hero Section */
+.wpo-hero-section-1 {
+    background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
+    padding: 60px 0 40px 0;
+}
+
+.wpo-hero-section-text {
+    padding: 40px 0;
+}
+
+.wpo-hero-title-top span {
+    color: #1e90ff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.wpo-hero-title h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #22223b;
+    margin-bottom: 18px;
+}
+
+.wpo-hero-subtitle p {
+    font-size: 1.15rem;
+    color: #4a4e69;
+    margin-bottom: 28px;
+}
+
+.wpo-hero-section-img img {
+    max-width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(30, 144, 255, 0.08);
+}
+
+.btns .btn {
+    margin-right: 16px;
+    margin-bottom: 10px;
+}
+
+/* Features/Services Section */
+#services {
+    background: #f4f8fb;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.wpo-features-item {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(30, 144, 255, 0.06);
+    padding: 32px 20px 28px 20px;
+    margin-bottom: 32px;
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+
+.wpo-features-item:hover {
+    box-shadow: 0 6px 32px rgba(30, 144, 255, 0.13);
+}
+
+.wpo-features-icon .icon {
+    font-size: 2.5rem;
+    color: #1e90ff;
+    margin-bottom: 18px;
+}
+
+.wpo-features-text h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #22223b;
+    margin-bottom: 10px;
+}
+
+.wpo-features-text p {
+    color: #4a4e69;
+    font-size: 1rem;
+}
+
+/* Enhance the fa-pen-nib icon for visibility */
+.wpo-features-icon .fa-pen-nib {
+    color: #e67e22 !important;
+    /* Vibrant orange for contrast */
+    font-size: 2.8rem !important;
+    background: #fff3e0;
+    border-radius: 50%;
+    padding: 18px;
+    box-shadow: 0 2px 12px rgba(230, 126, 34, 0.12);
+    margin-bottom: 10px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.wpo-features-item:hover .fa-pen-nib {
+    color: #fff;
+    background: #e67e22;
+}
+
+
+
+/* About/Mission Section */
+.wpo-about-section-s2 {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.wpo-about-img img {
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(30, 144, 255, 0.08);
+}
+
+.wpo-about-text span {
+    color: #1e90ff;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.wpo-about-text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #22223b;
+    margin-bottom: 12px;
+}
+
+.wpo-about-text p {
+    color: #4a4e69;
+    font-size: 1.08rem;
+}
+
+.wpo-about-text ul {
+    margin-top: 18px;
+    padding-left: 18px;
+}
+
+.wpo-about-text ul li {
+    color: #22223b;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    list-style: disc;
+}
+
+/* Team Section */
+.wpo-team-area {
+    background: #f8fafc;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.wpo-team-item {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(30, 144, 255, 0.06);
+    padding: 24px 12px 18px 12px;
+    margin-bottom: 32px;
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+
+.wpo-team-item:hover {
+    box-shadow: 0 6px 32px rgba(30, 144, 255, 0.13);
+}
+
+.wpo-team-img img {
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    margin-bottom: 14px;
+}
+
+.wpo-team-content h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #22223b;
+    margin-bottom: 4px;
+}
+
+.wpo-team-content span {
+    color: #1e90ff;
+    font-size: 0.98rem;
+}
+
+/* Contact/CTA Section */
+.wpo-contact-cta-section {
+    background: linear-gradient(120deg, #e0e7ef 0%, #f8fafc 100%);
+    padding: 60px 0 40px 0;
+}
+
+.wpo-contact-cta-text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #22223b;
+    margin-bottom: 12px;
+}
+
+.wpo-contact-cta-text p {
+    color: #4a4e69;
+    font-size: 1.08rem;
+}
+
+.btn.theme-btn-s2,
+.btn.theme-btn {
+    background: #1e90ff;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 28px;
+    font-weight: 600;
+    font-size: 1.08rem;
+    border: none;
+    transition: background 0.2s;
+}
+
+.btn.theme-btn-s2:hover,
+.btn.theme-btn:hover {
+    background: #22223b;
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+
+    .wpo-hero-section-1,
+    .wpo-contact-cta-section,
+    .wpo-features-section-s2,
+    .wpo-about-section-s2,
+    .wpo-team-area {
+        padding-top: 40px;
+        padding-bottom: 24px;
+    }
+
+    .wpo-hero-title h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .wpo-hero-section-1,
+    .wpo-contact-cta-section,
+    .wpo-features-section-s2,
+    .wpo-about-section-s2,
+    .wpo-team-area {
+        padding-top: 24px;
+        padding-bottom: 12px;
+    }
+
+    .wpo-hero-title h2 {
+        font-size: 1.3rem;
+    }
+
+    .wpo-hero-section-img img {
+        border-radius: 10px;
+    }
 }
